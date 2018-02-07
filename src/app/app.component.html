@@ -1,0 +1,10 @@
+<h1>{{title}}</h1>
+<nav [ngClass] = "'menu'">
+   <!--<a routerLink="/home" routerLinkActive="active-link">Home</a> | -->
+   <a routerLink="/add-user" routerLinkActive="active-link">Add User</a> |
+   <a routerLink="/manage-user" routerLinkActive="active-link">Users List</a>
+</nav>
+<div>
+  <router-outlet></router-outlet>
+</div>
+
