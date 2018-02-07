@@ -22,6 +22,6 @@ export class AddUserComponent implements OnInit {
     }
     addUser(): void {
 	    this.userService.addUser(this.user);
-		this.router.navigate(['/home']);
+		this.router.navigate(['/manage-user']);
     }
 }
